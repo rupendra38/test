@@ -19,7 +19,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Screen {
 
 	WebDriver driver=null;
-	
+	// here we are using parameter 
 	@Parameters({"data","data1"})
 	@Test(priority = -1)
 	public void getScreen(String b,String a) 
